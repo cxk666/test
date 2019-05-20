@@ -1,0 +1,42 @@
+.my_time1{
+  padding-bottom:20px;
+  margin-bottom:0px;
+}
+.my_time1 li{
+  list-style-type: none;
+  float: left;
+  position: relative;
+  text-align: center;
+  width: 21%;
+  padding: 0px;
+  left: -50px;
+  font-size: 20px;
+}
+.main_line_1{
+    list-style-type: none;
+    border-top: 1px solid red;
+    padding: 0px;
+    margin-top:50px;
+}
+.main_line_1 li {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 20%;
+    padding-top: 10px;
+}
+.main_line_1 li b:before{
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: 45%;
+    width: 12px;
+    height: 12px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: orange;
+    cursor:pointer;
+}
+.screen_small{
+  display: none;
+}
